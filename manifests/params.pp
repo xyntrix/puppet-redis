@@ -193,13 +193,13 @@ class redis::params {
       case $::operatingsystemmajrelease {
         '6': {
           # CentOS 6 EPEL package is 2.4.10
-          $minimum_version           = '2.4.10'
+          $minimum_version           = '3.2.8'
 
           $service_group             = 'root'
         }
         '7': {
           # CentOS 7 EPEL package is 3.2.3
-          $minimum_version           = '3.2.3'
+          $minimum_version           = '3.2.8'
 
           $service_group             = 'redis'
         }
